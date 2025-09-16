@@ -38,14 +38,12 @@
     </style>
 </head>
 
-<body class="flex flex-col gap-0 bg-zinc-300 w-screen min-h-screen text-zinc-950 font-[PP Mori] overflow-x-hidden">
+<body class="flex flex-col gap-0 bg-zinc-200 w-screen min-h-screen text-zinc-950 font-[PP Mori] overflow-x-hidden">
 
     <nav class="fixed top-0 w-screen z-100 backdrop-blur-md mix-blend-difference">
-        <div class="px-5 md:px-18 py-4 flex items-center justify-between text-zinc-100">
+        <div class="px-5 md:px-20 py-4 flex items-center justify-between text-zinc-100">
             <!-- Logo -->
-            <a href="#" class="text-2xl font-bold">MOZARIST<sup
-                    class="tracking-tight bg-gradient-to-tr from-rose-300 to-emerald-500 bg-clip-text text-transparent text-sm font-semibold inline-block w-fit">#Dev</sup>
-            </a>
+            <a href="#" class="text-2xl font-bold">MOZARIST*</a>
 
             <!-- Navlinks -->
             <ul class="hidden md:flex gap-5 text-lg font-semibold">
@@ -81,13 +79,13 @@
     </script>
 
     <div id="box" class="h-screen w-screen z-1">
-        <div class="absolute text-white w-full h-full px-8 md:px-20 pt-20 pb-10 z-2 mix-blend-difference">
+        <div class="absolute text-white w-full h-full px-8 md:px-20 pt-20 pb-10 z-2">
             <div class="flex flex-col justify-between gap-5 w-full h-full">
-                <h4 class="text-6xl">
+                <h4 class="text-7xl">
                     Hello World!
                 </h4>
                 <div class="space-y-2">
-                    <p class="text-xl md:text-4xl">
+                    <p class="text-xl md:text-4xl opacity-85">
                         Meet your trusted junior web dev partner
                     </p>
                     <h1 class="leading-none text-[clamp(3rem,15vw,8.3rem)] font-bold uppercase">Azzam Mozarist</h1>
@@ -135,7 +133,7 @@
 
         <!-- profile -->
         <div id="about"
-            class="flex flex-col gap-10 scroll-m-25 p-10 from-emerald-500 via-white to-rose-200 border border-zinc-950 rounded-2xl">
+            class="flex flex-col gap-10 scroll-m-20 p-10 from-emerald-500 via-white to-rose-200 border border-zinc-950 rounded-2xl">
             <h6 class="text-sm font-semibold font-mono">
                 mozarist<span class="">/</span>README<span class=" font-light">.md</span>
             </h6>
@@ -204,34 +202,34 @@
 
         <!-- projects -->
         <div class="flex flex-col gap-10 scroll-m-25" id="projects">
-            <h2
-                class="bg-gradient-to-r from-green-500 to-emerald-500 bg-clip-text text-transparent w-full inline-block text-7xl text-center font-bold">
-                My Projects
+            <h2 class="w-full inline-block text-7xl text-center font-bold uppercase leading-tight">
+                <span class="underline text-emerald-500 w-fit">Highlighted</span> Projects*
             </h2>
-            <div class="flex flex-col gap-5">
+            <div class="columns-2 gap-7">
                 <div
-                    class="flex flex-col md:flex-row bg-zinc-950 text-white rounded-lg shadow-lg overflow-hidden w-full min-h-75 border border-zinc-800">
+                    class="break-inside-avoid flex flex-col bg-white rounded-xl w-full h-fit mb-7 border border-zinc-800">
 
                     <!-- Preview Gambar Kiri -->
-                    <div class="md:w-1/2 w-full">
+                    <div class="w-full">
                         <img src="Asset/porto-admindashboard.png" alt="Portfolio Preview"
-                            class="w-full h-full object-cover">
+                            class="w-full h-full object-cover rounded-t-xl">
                     </div>
 
                     <!-- Deskripsi Kanan -->
                     <div
-                        class="md:w-1/2 w-full p-6 flex flex-col justify-between gap-2 bg-gradient-to-t from-zinc-950 to-zinc-900">
+                        class="w-full p-6 flex flex-col justify-between gap-2 bg-gradient-to-tr from-zinc-100 to-white rounded-b-xl">
                         <div class="flex flex-col gap-3">
                             <h5 class="text-3xl font-semibold">OSIS Voting Admin Dashboard</h5>
-                            <p class="text-zinc-400 text-md">
+                            <p class="text-zinc-700 text-md">
                                 A web-based voting application for school elections, built using PHP and MySQL.
                             </p>
                         </div>
                         <div class="flex flex-col gap-5">
                             <div class="flex flex-wrap gap-2">
                                 <div
-                                    class="flex gap-2 items-center p-1 px-3 w-fit bg-indigo-950 text-indigo-500 text-sm font-semibold border border-indigo-500 rounded-full">
-                                    <svg xmlns="http://www.w3.org/2000/svg" class="size-6" fill="currentColor"
+                                    class="flex gap-2 items-center p-1 px-3 w-fit text-sm font-semibold border rounded-full">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="size-6 text-indigo-600"
+                                        fill="currentColor"
                                         viewBox="0 0 640 512"><!--!Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.-->
                                         <path
                                             d="M320 104.5c171.4 0 303.2 72.2 303.2 151.5S491.3 407.5 320 407.5c-171.4 0-303.2-72.2-303.2-151.5S148.7 104.5 320 104.5m0-16.8C143.3 87.7 0 163 0 256s143.3 168.3 320 168.3S640 349 640 256 496.7 87.7 320 87.7zM218.2 242.5c-7.9 40.5-35.8 36.3-70.1 36.3l13.7-70.6c38 0 63.8-4.1 56.4 34.3zM97.4 350.3h36.7l8.7-44.8c41.1 0 66.6 3 90.2-19.1 26.1-24 32.9-66.7 14.3-88.1-9.7-11.2-25.3-16.7-46.5-16.7h-70.7L97.4 350.3zm185.7-213.6h36.5l-8.7 44.8c31.5 0 60.7-2.3 74.8 10.7 14.8 13.6 7.7 31-8.3 113.1h-37c15.4-79.4 18.3-86 12.7-92-5.4-5.8-17.7-4.6-47.4-4.6l-18.8 96.6h-36.5l32.7-168.6zM505 242.5c-8 41.1-36.7 36.3-70.1 36.3l13.7-70.6c38.2 0 63.8-4.1 56.4 34.3zM384.2 350.3H421l8.7-44.8c43.2 0 67.1 2.5 90.2-19.1 26.1-24 32.9-66.7 14.3-88.1-9.7-11.2-25.3-16.7-46.5-16.7H417l-32.8 168.7z" />
@@ -240,7 +238,7 @@
                                 </div>
 
                                 <div
-                                    class="flex gap-2 items-center p-1 px-3 w-fit bg-amber-950 text-amber-600 text-sm font-semibold border border-amber-600 rounded-full">
+                                    class="flex gap-2 items-center p-1 px-3 w-fit text-sm font-semibold border rounded-full">
                                     <svg viewBox="-18.458 -22.75 191.151 191.151" xmlns="http://www.w3.org/2000/svg"
                                         class="size-6" fill="#000000">
                                         <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
@@ -266,7 +264,7 @@
                                 </div>
 
                                 <div
-                                    class="flex gap-2 items-center p-1 px-3 w-fit bg-orange-950 text-orange-600 text-sm font-semibold border border-orange-600 rounded-full">
+                                    class="flex gap-2 items-center p-1 px-3 w-fit text-sm font-semibold border rounded-full">
                                     <svg xmlns="http://www.w3.org/2000/svg" class="size-6 text-orange-600"
                                         fill="currentColor"
                                         viewBox="0 0 384 512"><!--!Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.-->
@@ -276,7 +274,7 @@
                                     HTML
                                 </div>
                                 <div
-                                    class="flex gap-2 items-center p-1 px-3 w-fit bg-sky-950 text-sky-300 text-sm font-semibold border border-sky-300 rounded-full">
+                                    class="flex gap-2 items-center p-1 px-3 w-fit text-sm font-semibold border rounded-full">
                                     <svg xmlns="http://www.w3.org/2000/svg" class="size-6" fill="none"
                                         viewBox="0 0 54 33">
                                         <g clip-path="url(#prefix__clip0)">
@@ -296,7 +294,7 @@
                             </div>
 
                             <a href="https://github.com/mozarist/OSIS-Admin-Voting-Dashboard" target="_blank"
-                                class="flex items-center gap-2 w-fit bg-zinc-900 hover:bg-zinc-800 text-white text-xs p-2 px-4 rounded-lg transition">
+                                class="flex items-center gap-2 w-fit bg-emerald-500 hover:bg-emerald-600 text-xs p-2 px-4 rounded-lg transition">
                                 <svg xmlns="http://www.w3.org/2000/svg" class="size-4" fill="currentColor"
                                     viewBox="0 0 576 512"><!--!Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.-->
                                     <path
@@ -309,20 +307,20 @@
                 </div>
 
                 <div
-                    class="flex flex-col md:flex-row bg-zinc-950 text-white rounded-lg shadow-lg overflow-hidden w-full min-h-75 border border-zinc-800">
+                    class="break-inside-avoid flex flex-col bg-white rounded-xl w-full h-fit mb-7 border border-zinc-800">
 
                     <!-- Preview Gambar Kiri -->
-                    <div class="md:w-1/2 w-full">
+                    <div class="w-full">
                         <img src="Asset/porto-exprotravel.png" alt="Portfolio Preview"
-                            class="w-full h-full object-cover">
+                            class="w-full h-full object-cover rounded-t-xl">
                     </div>
 
                     <!-- Deskripsi Kanan -->
                     <div
-                        class="md:w-1/2 w-full p-6 flex flex-col justify-between gap-2 bg-gradient-to-t from-zinc-950 to-zinc-900">
+                        class="w-full p-6 flex flex-col justify-between gap-2 bg-gradient-to-t from-zinc-100 to-white rounded-b-xl">
                         <div class="flex flex-col gap-3">
                             <h5 class="text-3xl font-semibold">ExProTravel Landing Page</h5>
-                            <p class="text-zinc-400 text-md">
+                            <p class="text-zinc-700 text-md">
                                 ExProTravel is a travel booking agency that provides travel and trip planning. (A
                                 front-end dummy landing page)
                             </p>
@@ -330,7 +328,7 @@
                         <div class="flex flex-col gap-5">
                             <div class="flex flex-wrap gap-2">
                                 <div
-                                    class="flex gap-2 items-center p-1 px-3 w-fit bg-orange-950 text-orange-600 text-sm font-semibold border border-orange-600 rounded-full">
+                                    class="flex gap-2 items-center p-1 px-3 w-fit text-sm font-semibold border rounded-full">
                                     <svg xmlns="http://www.w3.org/2000/svg" class="size-6 text-orange-600"
                                         fill="currentColor"
                                         viewBox="0 0 384 512"><!--!Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.-->
@@ -340,8 +338,9 @@
                                     HTML
                                 </div>
                                 <div
-                                    class="flex gap-2 items-center p-1 px-3 w-fit bg-blue-950 text-blue-500 text-sm font-semibold border border-blue-500 rounded-full">
-                                    <svg xmlns="http://www.w3.org/2000/svg" class="size-6" fill="currentColor"
+                                    class="flex gap-2 items-center p-1 px-3 w-fit text-sm font-semibold border rounded-full">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="size-6 text-blue-500"
+                                        fill="currentColor"
                                         viewBox="0 0 384 512"><!--!Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.-->
                                         <path
                                             d="M0 32l34.9 395.8L192 480l157.1-52.2L384 32H0zm313.1 80l-4.8 47.3L193 208.6l-.3 .1h111.5l-12.8 146.6-98.2 28.7-98.8-29.2-6.4-73.9h48.9l3.2 38.3 52.6 13.3 54.7-15.4 3.7-61.6-166.3-.5v-.1l-.2 .1-3.6-46.3L193.1 162l6.5-2.7H76.7L70.9 112h242.2z" />
@@ -350,8 +349,9 @@
                                 </div>
 
                                 <div
-                                    class="flex gap-2 items-center p-1 px-3 w-fit bg-yellow-950 text-yellow-400 text-sm font-semibold border border-yellow-400 rounded-full">
-                                    <svg xmlns="http://www.w3.org/2000/svg" class="size-6" fill="currentColor"
+                                    class="flex gap-2 items-center py-1 px-3 w-fit text-sm font-semibold border rounded-full">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="size-6 text-yellow-400"
+                                        fill="currentColor"
                                         viewBox="0 0 448 512"><!--!Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.-->
                                         <path
                                             d="M0 32v448h448V32H0zm243.8 349.4c0 43.6-25.6 63.5-62.9 63.5-33.7 0-53.2-17.4-63.2-38.5l34.3-20.7c6.6 11.7 12.6 21.6 27.1 21.6 13.8 0 22.6-5.4 22.6-26.5V237.7h42.1v143.7zm99.6 63.5c-39.1 0-64.4-18.6-76.7-43l34.3-19.8c9 14.7 20.8 25.6 41.5 25.6 17.4 0 28.6-8.7 28.6-20.8 0-14.4-11.4-19.5-30.7-28l-10.5-4.5c-30.4-12.9-50.5-29.2-50.5-63.5 0-31.6 24.1-55.6 61.6-55.6 26.8 0 46 9.3 59.8 33.7L368 290c-7.2-12.9-15-18-27.1-18-12.3 0-20.1 7.8-20.1 18 0 12.6 7.8 17.7 25.9 25.6l10.5 4.5c35.8 15.3 55.9 31 55.9 66.2 0 37.8-29.8 58.6-69.7 58.6z" />
@@ -362,7 +362,7 @@
                             </div>
 
                             <a href="https://github.com/mozarist/Modul-3" target="_blank"
-                                class="flex items-center gap-2 w-fit bg-zinc-900 hover:bg-zinc-800 text-white text-xs p-2 px-4 rounded-lg transition">
+                                class="flex items-center gap-2 w-fit bg-emerald-500 hover:bg-emerald-600 text-xs p-2 px-4 rounded-lg transition">
                                 <svg xmlns="http://www.w3.org/2000/svg" class="size-4" fill="currentColor"
                                     viewBox="0 0 576 512"><!--!Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.-->
                                     <path
@@ -373,17 +373,16 @@
                         </div>
                     </div>
                 </div>
+
             </div>
         </div>
 
     </div>
-
-
     <!-- contacts -->
-    <div class="flex flex-col rounded-2xl " id="contacts">
-        <div class="min-h-50 flex flex-col justify-center items-center gap-10 p-5 lg:px-20" id="contact">
-            <div class="flex flex-col gap-2 w-full">
-                <h5 class="text-white text-2xl z-10 text-center flex gap-3">
+    <div class="flex flex-col gap-10" id="contacts">
+        <div class="min-h-screen flex flex-col justify-center items-center gap-10 p-5 lg:px-15" id="contact">
+            <div class="flex flex-col gap-2 items-center">
+                <h5 class="text-white text-2xl z-10 text-center flex items-center gap-3">
                     Feel free to reach me out
                     <svg xmlns="http://www.w3.org/2000/svg" class="size-5" fill="currentColor"
                         viewBox="0 0 512 512"><!--!Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.-->
@@ -391,104 +390,102 @@
                             d="M498.1 5.6c10.1 7 15.4 19.1 13.5 31.2l-64 416c-1.5 9.7-7.4 18.2-16 23s-18.9 5.4-28 1.6L284 427.7l-68.5 74.1c-8.9 9.7-22.9 12.9-35.2 8.1S160 493.2 160 480l0-83.6c0-4 1.5-7.8 4.2-10.8L331.8 202.8c5.8-6.3 5.6-16-.4-22s-15.7-6.4-22-.7L106 360.8 17.7 316.6C7.1 311.3 .3 300.7 0 288.9s5.9-22.8 16.1-28.7l448-256c10.7-6.1 23.9-5.5 34 1.4z" />
                     </svg>
                 </h5>
-                <h6 class="text-white z-10 text-7xl font-semibold">Get in Touch
+                <h6 class="text-white z-10 text-4xl font-semibold">Amazing collaboration = Amazing project
                 </h6>
             </div>
+            <div class="flex justify-center items-center gap-5 w-full z-10">
+                <a href="#"
+                    class="flex-1 flex flex-col gap-5 shadow-xl hover:scale-105 hover:bg-gradient-to-r hover:from-black hover:to-zinc-900 text-white hover:text-emerald-500 min-h-40 p-5 divide-y divide-zinc-300 hover:divide-zinc-600 border border-zinc-300 hover:border-zinc-600 rounded-xl transition transition-color duration-300 ease-out">
+                    <h6 class="text-lg font-semibold pb-2">
+                        Email
+                    </h6>
+                    <div class="flex flex-col flex-1 justify-between">
+                        <p class="text-sm">
+                            azzammozarist.xpro@gmail.com
+                        </p>
+                        <p class="text-lg">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="size-6" fill="currentColor"
+                                viewBox="0 0 512 512"><!--!Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.-->
+                                <path
+                                    d="M48 64C21.5 64 0 85.5 0 112c0 15.1 7.1 29.3 19.2 38.4L236.8 313.6c11.4 8.5 27 8.5 38.4 0L492.8 150.4c12.1-9.1 19.2-23.3 19.2-38.4c0-26.5-21.5-48-48-48L48 64zM0 176L0 384c0 35.3 28.7 64 64 64l384 0c35.3 0 64-28.7 64-64l0-208L294.4 339.2c-22.8 17.1-54 17.1-76.8 0L0 176z" />
+                            </svg>
+                        </p>
+                    </div>
+                </a>
 
-        </div>
-        <div
-            class="bg-emerald-950 from-zinc-950 via-emerald-950 to-zinc-950 px-20 py-25 flex justify-center items-center gap-5 w-full z-10">
-            <a href="#"
-                class="flex-1 flex flex-col gap-5 shadow-xl hover:scale-105 hover:bg-gradient-to-r hover:from-black hover:to-zinc-900 text-white hover:text-emerald-500 min-h-40 p-5 divide-y divide-zinc-300 hover:divide-zinc-600 border border-zinc-300 hover:border-zinc-600 rounded-xl transition transition-color duration-300 ease-out">
-                <h6 class="text-lg font-semibold pb-2">
-                    Email
-                </h6>
-                <div class="flex flex-col flex-1 justify-between">
-                    <p class="text-sm">
-                        azzammozarist.xpro@gmail.com
-                    </p>
-                    <p class="text-lg">
-                        <svg xmlns="http://www.w3.org/2000/svg" class="size-6" fill="currentColor"
-                            viewBox="0 0 512 512"><!--!Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.-->
-                            <path
-                                d="M48 64C21.5 64 0 85.5 0 112c0 15.1 7.1 29.3 19.2 38.4L236.8 313.6c11.4 8.5 27 8.5 38.4 0L492.8 150.4c12.1-9.1 19.2-23.3 19.2-38.4c0-26.5-21.5-48-48-48L48 64zM0 176L0 384c0 35.3 28.7 64 64 64l384 0c35.3 0 64-28.7 64-64l0-208L294.4 339.2c-22.8 17.1-54 17.1-76.8 0L0 176z" />
-                        </svg>
-                    </p>
-                </div>
-            </a>
+                <a href="https://github.com/mozarist" target="_blank"
+                    class="flex-1 flex flex-col gap-5 shadow-xl hover:scale-105 hover:bg-gradient-to-r hover:from-black hover:to-zinc-900 text-white hover:text-emerald-500 min-h-40 p-5 divide-y divide-zinc-300 hover:divide-zinc-600 border border-zinc-300 hover:border-zinc-600 rounded-xl transition transition-color duration-300 ease-out">
+                    <h6 class="text-lg font-semibold pb-2">
+                        GitHub
+                    </h6>
+                    <div class="flex flex-col flex-1 justify-between">
+                        <p class="text-sm">
+                            mozarist
+                        </p>
+                        <p class="text-lg">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="size-6" fill="currentColor"
+                                viewBox="0 0 496 512"><!--!Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.-->
+                                <path
+                                    d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3 .3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5 .3-6.2 2.3zm44.2-1.7c-2.9 .7-4.9 2.6-4.6 4.9 .3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3 .7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3 .3 2.9 2.3 3.9 1.6 1 3.6 .7 4.3-.7 .7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3 .7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3 .7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z" />
+                            </svg>
+                        </p>
+                    </div>
+                </a>
 
-            <a href="https://github.com/mozarist" target="_blank"
-                class="flex-1 flex flex-col gap-5 shadow-xl hover:scale-105 hover:bg-gradient-to-r hover:from-black hover:to-zinc-900 text-white hover:text-emerald-500 min-h-40 p-5 divide-y divide-zinc-300 hover:divide-zinc-600 border border-zinc-300 hover:border-zinc-600 rounded-xl transition transition-color duration-300 ease-out">
-                <h6 class="text-lg font-semibold pb-2">
-                    GitHub
-                </h6>
-                <div class="flex flex-col flex-1 justify-between">
-                    <p class="text-sm">
-                        mozarist
-                    </p>
-                    <p class="text-lg">
-                        <svg xmlns="http://www.w3.org/2000/svg" class="size-6" fill="currentColor"
-                            viewBox="0 0 496 512"><!--!Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.-->
-                            <path
-                                d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3 .3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5 .3-6.2 2.3zm44.2-1.7c-2.9 .7-4.9 2.6-4.6 4.9 .3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3 .7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3 .3 2.9 2.3 3.9 1.6 1 3.6 .7 4.3-.7 .7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3 .7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3 .7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z" />
-                        </svg>
-                    </p>
-                </div>
-            </a>
+                <a href="https://discord.com/users/779582529761050684" target="_blank"
+                    class="flex-1 flex flex-col gap-5 shadow-xl hover:scale-105 hover:bg-gradient-to-r hover:from-black hover:to-zinc-900 text-white hover:text-emerald-500 min-h-40 p-5 divide-y divide-zinc-300 hover:divide-zinc-600 border border-zinc-300 hover:border-zinc-600 rounded-xl transition transition-color duration-300 ease-out">
+                    <h6 class="text-lg font-semibold pb-2">
+                        Discord
+                    </h6>
+                    <div class="flex flex-col flex-1 justify-between">
+                        <p class="text-sm">
+                            mzrst
+                        </p>
+                        <p class="text-lg">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="size-6" fill="currentColor"
+                                viewBox="0 0 640 512"><!--!Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.-->
+                                <path
+                                    d="M524.5 69.8a1.5 1.5 0 0 0 -.8-.7A485.1 485.1 0 0 0 404.1 32a1.8 1.8 0 0 0 -1.9 .9 337.5 337.5 0 0 0 -14.9 30.6 447.8 447.8 0 0 0 -134.4 0 309.5 309.5 0 0 0 -15.1-30.6 1.9 1.9 0 0 0 -1.9-.9A483.7 483.7 0 0 0 116.1 69.1a1.7 1.7 0 0 0 -.8 .7C39.1 183.7 18.2 294.7 28.4 404.4a2 2 0 0 0 .8 1.4A487.7 487.7 0 0 0 176 479.9a1.9 1.9 0 0 0 2.1-.7A348.2 348.2 0 0 0 208.1 430.4a1.9 1.9 0 0 0 -1-2.6 321.2 321.2 0 0 1 -45.9-21.9 1.9 1.9 0 0 1 -.2-3.1c3.1-2.3 6.2-4.7 9.1-7.1a1.8 1.8 0 0 1 1.9-.3c96.2 43.9 200.4 43.9 295.5 0a1.8 1.8 0 0 1 1.9 .2c2.9 2.4 6 4.9 9.1 7.2a1.9 1.9 0 0 1 -.2 3.1 301.4 301.4 0 0 1 -45.9 21.8 1.9 1.9 0 0 0 -1 2.6 391.1 391.1 0 0 0 30 48.8 1.9 1.9 0 0 0 2.1 .7A486 486 0 0 0 610.7 405.7a1.9 1.9 0 0 0 .8-1.4C623.7 277.6 590.9 167.5 524.5 69.8zM222.5 337.6c-29 0-52.8-26.6-52.8-59.2S193.1 219.1 222.5 219.1c29.7 0 53.3 26.8 52.8 59.2C275.3 311 251.9 337.6 222.5 337.6zm195.4 0c-29 0-52.8-26.6-52.8-59.2S388.4 219.1 417.9 219.1c29.7 0 53.3 26.8 52.8 59.2C470.7 311 447.5 337.6 417.9 337.6z" />
+                            </svg>
+                        </p>
+                    </div>
+                </a>
 
-            <a href="https://discord.com/users/779582529761050684" target="_blank"
-                class="flex-1 flex flex-col gap-5 shadow-xl hover:scale-105 hover:bg-gradient-to-r hover:from-black hover:to-zinc-900 text-white hover:text-emerald-500 min-h-40 p-5 divide-y divide-zinc-300 hover:divide-zinc-600 border border-zinc-300 hover:border-zinc-600 rounded-xl transition transition-color duration-300 ease-out">
-                <h6 class="text-lg font-semibold pb-2">
-                    Discord
-                </h6>
-                <div class="flex flex-col flex-1 justify-between">
-                    <p class="text-sm">
-                        mzrst
-                    </p>
-                    <p class="text-lg">
-                        <svg xmlns="http://www.w3.org/2000/svg" class="size-6" fill="currentColor"
-                            viewBox="0 0 640 512"><!--!Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.-->
-                            <path
-                                d="M524.5 69.8a1.5 1.5 0 0 0 -.8-.7A485.1 485.1 0 0 0 404.1 32a1.8 1.8 0 0 0 -1.9 .9 337.5 337.5 0 0 0 -14.9 30.6 447.8 447.8 0 0 0 -134.4 0 309.5 309.5 0 0 0 -15.1-30.6 1.9 1.9 0 0 0 -1.9-.9A483.7 483.7 0 0 0 116.1 69.1a1.7 1.7 0 0 0 -.8 .7C39.1 183.7 18.2 294.7 28.4 404.4a2 2 0 0 0 .8 1.4A487.7 487.7 0 0 0 176 479.9a1.9 1.9 0 0 0 2.1-.7A348.2 348.2 0 0 0 208.1 430.4a1.9 1.9 0 0 0 -1-2.6 321.2 321.2 0 0 1 -45.9-21.9 1.9 1.9 0 0 1 -.2-3.1c3.1-2.3 6.2-4.7 9.1-7.1a1.8 1.8 0 0 1 1.9-.3c96.2 43.9 200.4 43.9 295.5 0a1.8 1.8 0 0 1 1.9 .2c2.9 2.4 6 4.9 9.1 7.2a1.9 1.9 0 0 1 -.2 3.1 301.4 301.4 0 0 1 -45.9 21.8 1.9 1.9 0 0 0 -1 2.6 391.1 391.1 0 0 0 30 48.8 1.9 1.9 0 0 0 2.1 .7A486 486 0 0 0 610.7 405.7a1.9 1.9 0 0 0 .8-1.4C623.7 277.6 590.9 167.5 524.5 69.8zM222.5 337.6c-29 0-52.8-26.6-52.8-59.2S193.1 219.1 222.5 219.1c29.7 0 53.3 26.8 52.8 59.2C275.3 311 251.9 337.6 222.5 337.6zm195.4 0c-29 0-52.8-26.6-52.8-59.2S388.4 219.1 417.9 219.1c29.7 0 53.3 26.8 52.8 59.2C470.7 311 447.5 337.6 417.9 337.6z" />
-                        </svg>
-                    </p>
-                </div>
-            </a>
-
-            <a href="https://maps.app.goo.gl/3H9LxM2xEGkZz3dFA" target="_blank"
-                class="flex-1 flex flex-col gap-5 shadow-xl hover:scale-105 hover:bg-gradient-to-r hover:from-black hover:to-zinc-900 text-white hover:text-emerald-500 min-h-40 p-5 divide-y divide-zinc-300 hover:divide-zinc-600 border border-zinc-300 hover:border-zinc-600 rounded-xl transition transition-color duration-300 ease-out">
-                <h6 class="text-lg font-semibold pb-2">
-                    Based in Indonesia
-                </h6>
-                <div class="flex flex-col flex-1 justify-between">
-                    <p class="text-sm">
-                        Bogor, Jawa Barat.
-                    </p>
-                    <p class="text-lg">
-                        <svg xmlns="http://www.w3.org/2000/svg" class="size-5" fill="currentColor"
-                            viewBox="0 0 576 512"><!--!Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.-->
-                            <path
-                                d="M384 476.1L192 421.2l0-385.3L384 90.8l0 385.3zm32-1.2l0-386.5L543.1 37.5c15.8-6.3 32.9 5.3 32.9 22.3l0 334.8c0 9.8-6 18.6-15.1 22.3L416 474.8zM15.1 95.1L160 37.2l0 386.5L32.9 474.5C17.1 480.8 0 469.2 0 452.2L0 117.4c0-9.8 6-18.6 15.1-22.3z" />
-                        </svg>
-                    </p>
-                </div>
-            </a>
+                <a href="https://maps.app.goo.gl/3H9LxM2xEGkZz3dFA" target="_blank"
+                    class="flex-1 flex flex-col gap-5 shadow-xl hover:scale-105 hover:bg-gradient-to-r hover:from-black hover:to-zinc-900 text-white hover:text-emerald-500 min-h-40 p-5 divide-y divide-zinc-300 hover:divide-zinc-600 border border-zinc-300 hover:border-zinc-600 rounded-xl transition transition-color duration-300 ease-out">
+                    <h6 class="text-lg font-semibold pb-2">
+                        Based in Indonesia
+                    </h6>
+                    <div class="flex flex-col flex-1 justify-between">
+                        <p class="text-sm">
+                            Bogor, Jawa Barat.
+                        </p>
+                        <p class="text-lg">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="size-5" fill="currentColor"
+                                viewBox="0 0 576 512"><!--!Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.-->
+                                <path
+                                    d="M384 476.1L192 421.2l0-385.3L384 90.8l0 385.3zm32-1.2l0-386.5L543.1 37.5c15.8-6.3 32.9 5.3 32.9 22.3l0 334.8c0 9.8-6 18.6-15.1 22.3L416 474.8zM15.1 95.1L160 37.2l0 386.5L32.9 474.5C17.1 480.8 0 469.2 0 452.2L0 117.4c0-9.8 6-18.6 15.1-22.3z" />
+                            </svg>
+                        </p>
+                    </div>
+                </a>
+            </div>
         </div>
     </div>
 
 
     <!-- footer -->
-    <footer class="flex flex-col w-full bg-gradient-to-tr from-zinc-950 via-zinc-950 to-emerald-950">
+    <footer class="flex flex-col w-full bg-zinc-200">
         <div class="flex items-center w-full border-y border-zinc-800">
-            <div class="flex-1 px-20 py-5 text-white text-4xl font-semibold">
+            <div class="flex-1 px-20 py-5  text-4xl font-semibold">
                 MOZARIST
             </div>
-            <div class="flex-1 px-20 py-5 text-zinc-100 text-xl text-right font-semibold">
+            <div class="flex-1 px-20 py-5 text-xl text-right font-semibold">
                 Junior Fullstack Web Developer Based in Indonesia
             </div>
         </div>
 
-        <div class="flex divide-x divide-zinc-800 text-zinc-300 mx-20 border-x border-zinc-800">
+        <div class="flex divide-x divide-zinc-800 mx-20 border-x border-zinc-800">
             <div class="flex-1 p-5 space-y-4">
                 <div class="space-y-2">
                     <h6>// Email</h6>
@@ -539,10 +536,10 @@
                 <a href="#" class="hover:text-white">Scroll back to the top</a>
             </div>
         </div>
-        <div class="flex justify-between gap-5 px-20 py-5 text-zinc-300 font-semibold border-t border-zinc-800">
+        <div class="flex justify-between gap-5 px-20 py-5 font-semibold border-t border-zinc-800">
             <p>&copy; 2025 Mozarist. All rights reserved.</p>
             <p>Made with <span class="text-red-500">❤</span>... and alot of <a href="https://tailwindcss.com"
-                    target="_blank" class="text-sky-100">TailwindCSS</a></p>
+                    target="_blank" class="text-sky-600">TailwindCSS</a></p>
         </div>
     </footer>
 
@@ -558,7 +555,7 @@
 
         let colorbg = new Color4Bg.BlurGradientBg({
             dom: "box",
-            colors: ["#000000", "#9effbb", "#000000", "#ebf7ff"],
+            colors: ["#84ff6b", "#287652", "#09001f", "#040f00"],
             loop: true
         })
 
